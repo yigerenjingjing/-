@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import os
 
+# 目标网址（京东宠物玩具搜索结果页）
 url = "https://search.jd.com/Search?keyword=%E5%AE%A0%E7%89%A9%E7%8E%A9%E5%85%B7&enc=utf-8&wq=%E5%AE%A0%E7%89%A9wan%27jv&pvid=a31833d4f6ba4a038b51e97e9aa91ab7"
 
 headers = {

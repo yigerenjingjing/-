@@ -11,11 +11,12 @@ import os
 url = "https://search.jd.com/Search?keyword=%E5%AE%A0%E7%89%A9%E7%8E%A9%E5%85%B7&enc=utf-8&wq=%E5%AE%A0%E7%89%A9wan%27jv&pvid=a31833d4f6ba4a038b51e97e9aa91ab7"
 
 headers = {
-    "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0"
+    # 模拟浏览器头部，防止被反爬
+    "User-Agent": "自己的User-Agent",
 }
 
 #保存文件地址
-output_path = r"D:\cursorproject\jd_result.xlsx"
+output_path = r"D:\jd_result.xlsx"
 
 # 浏览器管理函数
 def initialize_browser():
